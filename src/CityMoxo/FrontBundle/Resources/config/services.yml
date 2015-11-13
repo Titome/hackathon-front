@@ -1,0 +1,4 @@
+services:
+#    city_moxo_front.example:
+#        class: CityMoxo\FrontBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

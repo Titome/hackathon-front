@@ -1,3 +1,9 @@
+city_moxo_front:
+    #resource: "@CityMoxoFrontBundle/Resources/config/routing.yml"
+    resource: "@CityMoxoFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

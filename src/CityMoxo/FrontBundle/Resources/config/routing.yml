@@ -1,0 +1,3 @@
+city_moxo_front_homepage:
+    path:     /{name}
+    defaults: { _controller: CityMoxoFrontBundle:Default:index }
