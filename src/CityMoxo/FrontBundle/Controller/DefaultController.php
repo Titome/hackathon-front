@@ -8,10 +8,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/{name}")
+     * @Route("/")
      */
-    public function indexAction($name)
+    public function indexAction()
     {
-        return $this->render('CityMoxoFrontBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('CityMoxoFrontBundle:Default:index.html.twig');
     }
 }
